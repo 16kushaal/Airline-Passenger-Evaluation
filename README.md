@@ -15,4 +15,33 @@ The objective of this project is to develop a predictive model that classifies a
 project aims to identify these key factors so airlines can make data-driven decisions to improve their services, retain passengers by increasing customer satisfaction and reduce 
 customer churn.
 
-### Data Source: [Dataset](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction)
+## Data Understanding and Exploration
+### Data Source: The files attached above were leveraged from [Kaggle](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction)
+The dataset used in this project is sourced from Kaggle and contains 25 features with approximately 130,000 data points. The data provides a comprehensive view of various factors influencing passenger satisfaction.
+### Exploratory Data Analysis (EDA)
+The project includes a Jupyter notebook (.ipynb file) that covers all the necessary data visualizations for EDA. This analysis helps in uncovering insights and extracting relevant features required for building the predictive models.
+
+## Data Mining and Modelling
+In this project, we employed multiple classification models to predict two key aspects of airline passengers.
+### Classification - 1: Passenger Satisfaction
+A comparison was conducted between six different classification models to classify passengers into two categories: satisfied and neutral/dissatisfied. The models compared include:
+Logistic Regression
+Random Forest
+k-Nearest Neighbors (kNN)
+Neural Networks
+Naive Bayes
+Support Vector Machine (SVM)
+
+###Classification - 2: Passenger Loyalty
+For predicting passenger loyalty, five different classification models were used to classify passengers into two categories: loyal and disloyal. The models compared include:
+Logistic Regression
+Random Forest
+k-Nearest Neighbors (kNN)
+Neural Networks
+Naive Bayes
+
+These models were evaluated based on their accuracy, precision, recall, and F1 score to determine the most effective approach for each classification task. Below is the outline of the process done on Orange.
+![image](https://github.com/user-attachments/assets/f3715c5d-3137-4410-8240-e9b78e246080)
+
+Orange: 3.36.2
+Python: 3.9.12
