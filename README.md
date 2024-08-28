@@ -10,7 +10,9 @@ The objective of this project is to develop a predictive model that classifies a
 
 ## Business Problem
 ● One of the leading causes of customer service decline in air travel is that more customers are demanding compensation for delays and poor service. Due to an increase in customer expectations, airlines are dealing with more and more customers contacting them.
+
 ● Airlines operate in a fiercely competitive environment where customer experience is utmost important. Unfortunately, many airlines struggle with high customer churn, meaning passengers who stop flying with them. 
+
 ● This churn translates to lost revenue and a weakened brand image. To stay ahead, airlines need to understand the factors that most influence customer satisfaction and loyalty. This 
 project aims to identify these key factors so airlines can make data-driven decisions to improve their services, retain passengers by increasing customer satisfaction and reduce 
 customer churn.
@@ -32,7 +34,7 @@ Neural Networks
 Naive Bayes
 Support Vector Machine (SVM)
 
-###Classification - 2: Passenger Loyalty
+### Classification - 2: Passenger Loyalty
 For predicting passenger loyalty, five different classification models were used to classify passengers into two categories: loyal and disloyal. The models compared include:
 Logistic Regression
 Random Forest
